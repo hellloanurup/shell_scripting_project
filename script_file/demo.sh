@@ -5,14 +5,14 @@ API_URL="https://api.github.com"
 
 # GitHub username and personal access token
 USERNAME="helllo"
-TOKEN="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"
+TOKEN="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"
 
 
 
 
 # User and Repository information
-REPO_OWNER=for-just-practice
-REPO_NAME=demop
+REPO_OWNER=bashscriptexec
+REPO_NAME=customrepo
 
 # Function to make a GET request to the GitHub API
 function github_api_get {
@@ -20,7 +20,7 @@ function github_api_get {
     local url="${API_URL}${endpoint}"
 
     # Send a GET request to the GitHub API with authentication
-    curl -s -u "hellloanurup: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" "${url}"
+    curl -s -u "hellloanurup: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" "${url}"
 }
 
 # Function to list users with read access to the repository
